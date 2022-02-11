@@ -3,7 +3,7 @@
 </script>
 
 <script>
-	import AppleApps from '$lib/AppleApps.svelte'
+	import CatFacts from '$lib/CatFacts.svelte';
 </script>
 
 <svelte:head>
@@ -11,7 +11,7 @@
 </svelte:head>
 
 <section>
-	<svelte:component this={AppleApps}></svelte:component>
+	<svelte:component this={CatFacts}></svelte:component>
 </section>
 
 <style>
